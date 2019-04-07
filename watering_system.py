@@ -1,7 +1,6 @@
 import RPi.GPIO as GPIO
 import time
 import datetime
-import signal
 from guizero import *
 
 GPIO.setmode(GPIO.BCM)
