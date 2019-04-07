@@ -87,4 +87,4 @@ if status == "Y":
         foooo.write("-"+now.strftime("%d.%m")+" "+now.strftime("%X")+" The watering process was interrupted by pressing CTRL + C on your keyboard..." + "\n\n")
         foooo.close()
 else:
-    print("The start was refused.")
+    print("You refused to start.")
