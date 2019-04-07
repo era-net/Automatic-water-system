@@ -6,8 +6,8 @@ from guizero import *
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-"""
-print("Hallo Armin !")
+
+print("Hallo !")
 time.sleep(2)
 print("=" * 45)
 print("")
@@ -32,7 +32,7 @@ print("=" * 45)
 time.sleep(5)
 print("")
 input("Bitte bestätige mit der Enter-Taste, dass du diese Infos verstanden hast")
-print("")"""
+print("")
 status = input("Automatischen Giessprozess jetzt starten? Ja = 'J' | Nein = 'N'")
 
 if status == "J":
