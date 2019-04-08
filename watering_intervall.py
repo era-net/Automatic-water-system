@@ -13,8 +13,8 @@ print("")
 print("HERE THE MOST IMPORTANT INFORMATIONS:")
 print("-" * 36)
 time.sleep(3)
-print(" -Press SHIFT + J and than enter,)
-print("  to start the script.")
+print("  - Press SHIFT + J and than enter,")
+print("    to start the script.")
 print("")
 time.sleep(4)
 print("  NOTE!-----IMPORTANT!--------")
@@ -24,7 +24,7 @@ print("")
 time.sleep(4)
 print("  NOTE!-----IMPORTANT!--------")
 print("  - ADJUST THE WATER OUTFLOW, TO BE WHERE IT SHOULD BE BEFORE EXECUTING THE SCRIPT!")
-print("    AS SOON AS YOU START THE SCRIPT, THE PUMP WILL START PUMPING!!!)
+print("    AS SOON AS YOU START THE SCRIPT, THE PUMP WILL START PUMPING!!!")
 print("")
 print("=" * 45)
 time.sleep(5)
@@ -33,7 +33,7 @@ input("Please press enter, to confirm that you have understood this informations
 print("")
 status = input("Would you like, to start the automatized waterin process? YES = 'Y' | NO = 'N'")
 
-if status == "Y":
+if status == "Y" or status == "y":
     try:
         print("")
         print("Hourly watering intervall runs...")
