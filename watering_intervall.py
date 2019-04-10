@@ -74,7 +74,7 @@ if status == "Y" or status == "y":
             print("yet 30 min. ...")       # Pump will start in 30 min. | 2700 - 900 = 1800 | 1800 / 60 = 30 min.
             time.sleep(900) # 900
             print("yet 15 min. ...")       # Pump will start in 15 min. | 1800 - 900 = 900 | 900 / 60 = 15 min.
-            time.sleep(900) # 900           # at the end the code will beginn from the hile loop again.
+            time.sleep(900) # 900           # at the end the code will beginn from the while loop again.
     except KeyboardInterrupt:
         GPIO.setup(17, GPIO.OUT)
         GPIO.output(17, GPIO.LOW)
