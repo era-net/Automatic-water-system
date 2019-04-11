@@ -16,7 +16,7 @@ If you are **NOT** using the given python code above, the connection might be di
 
 ## Executing the script
 To execute the python script, go into the directory, where the file is safed and write
-```__your-directory__ python execution.py```.
+```__your-directory__ python watering_intervall.py```.
 
 ## Interrupting the script
 To interrupt the script immediately press (Ctrl + C).
