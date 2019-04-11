@@ -16,7 +16,7 @@ time.sleep(3)
 print("  - Press SHIFT + J and than enter,")
 print("    to start the script.")
 print("")
-time.sleep(4)
+time.sleep(4).
 print("  NOTE!-----IMPORTANT!--------")
 print("  - TO IMMEDIATELY STOP THE EXECUTION,")
 print("    PRESS (CTRL + C)")
