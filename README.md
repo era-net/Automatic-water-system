@@ -10,7 +10,7 @@ A system, which **waters** plants via **raspberry pi** (3) and a **relay** conne
 [Status](#status)
 
 ## Connection
-The connection between the Raspberry pi and the relay is shown in the **connection.pdf** File.
+The connection between the Raspberry pi and the relay is shown in the **Connection.pdf** File.
 
 If you are **NOT** using the given python code above, the connection might be different.
 
